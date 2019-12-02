@@ -6,8 +6,6 @@ mazeStr = mazeF.readlines()
 factsF.write('mazeHeight('+str(len(mazeStr))+').\n')
 factsF.write('mazeWidth('+str(len(mazeStr[0])-1)+').\n')
 
-print(mazeStr)
-
 for yi in range(len(mazeStr)):
     for xi in range(len(mazeStr[yi])):
         if mazeStr[yi][xi] == ' ':
